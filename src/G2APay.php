@@ -34,7 +34,7 @@ class G2APay
 		$this->currency = $currency;
 	}
 
-	public function addItem($sku, $name, int $quantity, $id, float $price, $url, $extra = '', $type = '')
+	public function addItem($sku, $name, $quantity, $id, $price, $url, $extra = '', $type = '')
 	{
 		$this->items[] = [
 			'sku' => $sku,
